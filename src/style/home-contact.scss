@@ -1,0 +1,90 @@
+@import './variables.scss';
+
+.home-contact{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-contact-title {
+    color: $dark-color;
+    font-size: 75px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.home-contact-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.home-contact-left {
+    flex: 1;
+    border-right: 2px solid $dark-color;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-contact-right {
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    input[type=text], textarea {
+        margin-top: 25px;
+        width: 75%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    button {
+        margin-top: 25px;
+        width: 150px;
+        height: 50px;
+        color: white;
+        background-color: $dark-color;
+        border-color: white;
+        font-weight: lighter;
+        font-size: 20px;
+        transition: 0.5s;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    button:hover {
+        border-color:$main-color;
+        color: $main-color;
+    }
+}
+
+.home-contact-side-title {
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+
+.home-contact-icon {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+

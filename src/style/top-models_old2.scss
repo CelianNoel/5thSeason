@@ -1,0 +1,135 @@
+/*=============================================*/
+/*           Infos diplay under             */ 
+/*=============================================*/
+@import './variables.scss';
+
+.top-models {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+
+.top-models-img {
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*border: 15px solid $main-color;*/
+}
+
+
+.top-models-title {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    font-weight: lighter;
+    font-size: 60px;
+    color: white;
+    
+}
+
+.top-models-title-text {
+    display: inline-block;
+    background-color: 	#101010;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.top-women {  
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: block;
+    text-align: center;  
+}
+
+.top-men {
+    padding-bottom: 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.top-model-template {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.top-model-template img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.top-model-template img:hover{
+    opacity: 0.5;
+}
+
+.img-hover {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+/* Hover : Zoom*/
+
+.img-hover:hover {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+/* Hover : check profile*/
+
+.see-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: transparent;
+    height: 100%;
+    font-weight: lighter;
+    transition-duration: 0.4s;
+    font-size: 30px;
+    
+}
+
+.see-profile:hover{
+    color: black;
+    background-color: rgba(255,228,181,0.5);
+
+}
+
+
+/* top-model-template */
+
+.model-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 5px;
+
+}
+
+.model-info .views{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 25px;
+    margin-bottom: 2px;
+
+}
+
+.views-text {
+    margin-left: 5px;
+    font-size: 20px;
+    margin-bottom: 2px;
+
+}

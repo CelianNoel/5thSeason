@@ -1,0 +1,111 @@
+@import './variables.scss';
+
+.home {
+    background-image: url("../img/banner_dark.jpeg");
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#videoDiv2 {
+    width:100%; 
+    display:block; 
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+#videoDiv3 {
+    width:100%; 
+    display:block; 
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+#home-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#videoMessage2 { 
+    position: absolute; 
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gradiant {
+    background: linear-gradient(0deg, rgba(38,38,38,0.10688025210084029) 39%, rgba(0,0,0,1) 100%);
+}
+
+.transition {
+    background-color: $dark-color;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.transition-text {
+    font-weight: lighter;
+    font-size: 60px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.important-text {
+    color: $main-color;
+}
+
+.scroll-down {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    color: white;
+}
+
+.scroll-icon {
+    width: 100%;
+    text-align: center;
+}
+
+
+.key-metrics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 75px;
+}
+
+.key-metrics-slot {
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-metrics-value {
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.key-metrics-text {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: lighter;
+}

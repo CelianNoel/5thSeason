@@ -1,0 +1,146 @@
+@import './variables.scss';
+
+.top-infs {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-infs-title {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 75px;
+    font-weight: lighter;
+}
+
+.top-infs-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inf-separator {
+    width: 5px;
+    background-color: $dark-color;
+}
+
+.top-inf-women {
+    padding-top: 50px;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 200px;
+}
+
+.top-inf-men {
+    padding-top: 50px;
+    width: 100%;
+    padding-right: 200px;
+    padding-left: 100px;
+    /*background-color: #f1f1f1;*/
+}
+
+.top-inf-woman-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    margin-bottom: 50px;
+}
+
+.top-inf-woman-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-bottom: 50px;
+}
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.top-inf-woman-right .info {
+    font-size: 40px;
+}
+
+.top-inf-woman-left .info {
+    font-size: 40px;
+}
+
+.top-inf-men .info {
+    color: black;
+}
+
+.img-hover2 {
+    background-size: cover;
+    height: 450px;
+    width: 300px;
+    transition: 0.4s;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img-hover2:hover {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.see-profile2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    height: 100%;
+    font-weight: lighter;
+    transition-duration: 0.4s;
+    font-size: 30px;
+    
+    button {
+        display: none;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        color: white;
+        font-weight: lighter;
+        font-size: 20px;
+        transition: 1s;
+        border-radius: 10px;
+        border: 1px solid white;
+    }
+}
+
+.see-profile2:hover {
+    
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    button:hover {
+        display: flex;
+        border-color: $main-color;
+        color: $main-color;
+        background-color: rgba(0,0,0,0.9);;
+    }
+    color: $main-color;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.info-name {
+    margin-bottom: 10px;
+    border-bottom: 2px solid $dark-color;
+}
+.info-sub{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
