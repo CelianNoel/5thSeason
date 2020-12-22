@@ -1,3 +1,30 @@
+# Prerequisit
+
+To use this project you will need the to have `npm` installed
+
+# Installation 
+
+To install the project go in a Linux terminal and run the following command :
+
+#### git clone git@github.com:CelianNoel/5thSeason.github.io.git
+
+#### cd 5thSeason
+
+#### npm install
+
+# Run
+
+Run the app with by going to the root directory and do the following command :
+
+#### npm start
+
+You can check it in the browser here : http://localhost:3000
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
